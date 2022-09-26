@@ -1,0 +1,21 @@
+Prueba práctica 2
+----------------------------
+
+Basandose en el modelo de datos "modelocompras"
+
+1. Crear las entidades JPA necesarias
+2. Crear los repositorios necesarios con Spring Data JPA
+3. Crear servicio de negocio para implementar la realización de una compra
+   a partir del nif del cliente, códigos y cantidades de los artículos; al efectuar
+   la compra reducir la cantidad disponible de cada artículo
+   Comprobar que el cliente existe
+   Comprobar que los artículos existen y tienen disponibilidad de las cantidades pedidas
+4. Crear controlador para poder invocar al servicio de negocio desde un cliente REST
+5. Crear clase para probar el servicio de negocio de manera real probando los casos:
+   Compra con todo ok, compra con cliente no válido, compra con algún producto no existente,
+   compra con algún producto no disponible
+6. Crear clase para probar el servicio de negocio igual al punto 4 pero empleando repositorios
+   mock
+7. Crear clase para probar el controlador de manera real probando compra con todo ok y
+   compra con cliente no existente
+   
